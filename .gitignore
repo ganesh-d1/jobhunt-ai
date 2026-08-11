@@ -1,6 +1,6 @@
 # secrets
 .env
-
+.claude
 # your actual resume and the profile derived from it
 resume.*
 my_resume.pdf

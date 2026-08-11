@@ -22,17 +22,34 @@
 # Start with 10-15 companies you would actually join. A list of 200 is mostly
 # noise and makes the prefilter counts impossible to reason about.
 
-companies:
-  - {ats: greenhouse, slug: stripe,      name: Stripe}
-  - {ats: greenhouse, slug: databricks,  name: Databricks}
-  - {ats: greenhouse, slug: cloudflare,  name: Cloudflare}
-  - {ats: greenhouse, slug: figma,       name: Figma}
-  - {ats: greenhouse, slug: dropbox,     name: Dropbox}
-  - {ats: greenhouse, slug: coinbase,    name: Coinbase}
-  - {ats: greenhouse, slug: reddit,      name: Reddit}
-  - {ats: lever,      slug: voleon,      name: Voleon}
+# Boards to poll.
+#
+# ats: greenhouse | lever | ashby
+# slug: company's ATS board identifier
+# name: company name shown in the digest
 
-  - {ats: ashby,      slug: openai,      name: OpenAI}
-  - {ats: ashby,      slug: ramp,        name: Ramp}
-  - {ats: ashby,      slug: linear,      name: Linear}
-  - {ats: ashby,      slug: vanta,       name: Vanta}
+companies:
+
+  # =========================
+  # ASHBY
+  # =========================
+
+  - {ats: ashby, slug: ontic, name: Ontic}
+  - {ats: ashby, slug: almabase, name: Almabase}
+  - {ats: ashby, slug: playpowerlabs, name: PlayPower Labs}
+  - {ats: ashby, slug: emergence, name: Emergence}
+  - {ats: ashby, slug: weave, name: Weave}
+  - {ats: ashby, slug: savvymoney, name: SavvyMoney}
+  - {ats: ashby, slug: ema, name: Ema}
+  - {ats: ashby, slug: ndeavour, name: NDEAVOUR Consulting}
+
+  # =========================
+  # LEVER
+  # =========================
+
+  - {ats: lever, slug: netomi, name: Netomi}
+  - {ats: lever, slug: entrata, name: Entrata}
+
+  - {ats: lever, slug: 3pillarglobal, name: 3Pillar Global}
+  - {ats: lever, slug: perforce, name: Perforce}
+  - {ats: lever, slug: coupa, name: Coupa}
